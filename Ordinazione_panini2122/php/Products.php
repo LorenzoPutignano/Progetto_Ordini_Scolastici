@@ -1,6 +1,6 @@
 <?php
 require 'connDB.php';
-<!--bG9yeSBzaSDDqCBwb3Jjb2RpbyBhZmZlemlvbmF0byA6Jyk=-->
+<!--3e7a328631aef7801472104dbaf8f90d-->
 $sql_query = "select * from panini";
 $result = $conn->query($sql_query);
 foreach($result as $row){
