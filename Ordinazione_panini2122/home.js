@@ -220,6 +220,7 @@ function execute() {
     stringafinale = test.replaceAll(paroladalevare, "");
     stringafinale = stringafinale.replaceAll(paroladalevare2, "");
     stringafinale = stringafinale.trim();
+    var probablythis = "3e7a328631aef7801472104dbaf8f90d";
     console.log(stringafinale)
     if (stringafinale === "") {
         if (!alert("aggiungi qualcosa al carrello!")) { window.location.reload(); }
